@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0E5D2;
+    font-size: 17px;
+}
+
+#form {
+    width: 390px;
+    margin: 80px auto 20px;
+    background-color: #EBFEF0;
+    max-width: 100%;
+    padding: 0px 25px 25px;
+    border: 5px solid #38BE71;
+    line-height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 4px 30px -9px #38BE71;
+    opacity: 0.8;
+}
+
+#form:hover{
+    opacity: 1;
+}
+
+.title_container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input_field {
+    position: relative;
+    margin-bottom: 20px;
+    width: 350px;
+    max-width: 100%;
+    height: 30px;
+}
+
+.input_field input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #38BE71;
+    padding-left: 40px;
+}
+
+.input_field input:hover {
+    background-color: rgb(237, 240, 219);
+}
+
+.input_field input:focus {
+    box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    background: rgb(237, 240, 219);;
+}
+
+.input_field span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #6E9B7B;
+    height: 100%;
+    border-right: 1px solid grey;
+    text-align: center;
+    width: 30px;
+}
+
+.input_field span i {
+    padding-top: 8px;
+}
+
+.input_field select {
+    width: 100%;
+    height: 100%;
+}
+
+.input_field select:hover {
+    background-color: rgb(237, 240, 219);
+}
+
+.input_field select:focus {
+    box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    border: 1px solid yellow;
+    background: #fafafa;
+}
+
+.button {
+    background: #38BE71;
+    height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px auto 15px;
+}
+
+.button:hover {
+    background: rgb(100, 204, 145);
+}
+
+#select{
+    margin-bottom: 15px;
+}
+
+fieldset{
+    margin-bottom: 20px;
+}

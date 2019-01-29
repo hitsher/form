@@ -55,13 +55,12 @@ body {
 .input_field input:focus {
     box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
     background: rgb(237, 240, 219);
-    ;
 }
 
 .input_field span {
     position: absolute;
     left: 0;
-    top: 0;
+    top: 1.5px;
     color: #6E9B7B;
     height: 100%;
     border-right: 1px solid grey;
@@ -104,23 +103,20 @@ body {
     background: rgb(100, 204, 145);
 }
 
-#select {
-    margin-bottom: 15px;
-}
 
 fieldset {
     margin-bottom: 20px;
 }
 
-#contactUs .input_field {
+.contactUs .input_field {
     margin-bottom: 40px;
 }
 
-#contactUs .input_field span {
-    top: 31px;
+.contactUs .input_field span {
+    top: 31.5px;
 }
 
-#message {
+.message {
     height: 85px;
 }
 
@@ -134,22 +130,21 @@ textarea:hover {
     background-color: rgb(237, 240, 219);
 }
 
-#logIn .input_field {
+.logIn .input_field {
     margin-bottom: 40px;
 }
 
-#logIn .input_field span {
-    top: 31px;
+.logIn .input_field span {
+    top: 31.5px;
 }
 
-#lastButton {
+.lastButton {
     margin-top: 0px;
 }
 
-#underline {
+.underline {
     width: 100%;
     border-bottom: solid 2px #38BE71;
-    ;
     margin-top: 15px;
     margin-bottom: 2px;
 }

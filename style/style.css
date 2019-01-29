@@ -7,9 +7,10 @@
 body {
     background-color: #E0E5D2;
     font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#form {
+.form {
     width: 390px;
     margin: 80px auto 20px;
     background-color: #EBFEF0;
@@ -22,7 +23,7 @@ body {
     opacity: 0.8;
 }
 
-#form:hover{
+.form:hover{
     opacity: 1;
 }
 
@@ -44,6 +45,7 @@ body {
     height: 100%;
     border: 1px solid #38BE71;
     padding-left: 40px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .input_field input:hover {
@@ -107,4 +109,29 @@ body {
 
 fieldset{
     margin-bottom: 20px;
+}
+
+#contactUs .input_field{
+    margin-bottom: 40px;
+}
+
+#contactUs .input_field span {
+    top: 31px;
+}
+
+#message{
+    height: 85px;
+  }
+  textarea{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 14px; 
+  }
+
+  #logIn .input_field{
+    margin-bottom: 40px;
+}
+
+#logIn .input_field span {
+    top: 31px;
+   
 }
